@@ -58,7 +58,7 @@ const (
 )
 
 const (
-	maxRecordSize = 1 << 20 // 1 MiB
+	maxRecordSize = 100 << 20 // 1 MiB
 )
 
 var bufPool = sync.Pool{
